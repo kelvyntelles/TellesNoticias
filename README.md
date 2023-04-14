@@ -1,5 +1,5 @@
 # Telles Notícias
-Site de Noticias, com painel admin. Sistema feito em Django
+Site de Noticias, site em produção.
 
 # Site em Produção
 Link: https://telles-noticias.herokuapp.com/
@@ -11,4 +11,5 @@ Link: https://telles-noticias.herokuapp.com/
 
 ![image](https://user-images.githubusercontent.com/60902731/232138049-e7da9073-d82f-4702-83aa-ba54ee342d9b.png)
 
-
+# Linguagens
+Python | Django | Bootstrap
