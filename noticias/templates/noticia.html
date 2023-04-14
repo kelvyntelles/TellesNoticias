@@ -1,0 +1,23 @@
+{%extends 'base.html'%}
+
+{% block 'conteudo' %}
+
+<div>
+    <h2 class="text-capitalize"><strong>{{noticia.titulo}}</strong></h2>
+
+    <img src="/media/{{noticia.imgCapa}}" class="img-fluid w-50 float-start me-3" alt="...">
+
+    <p class="fs-5">
+        {{noticia.texto}}
+    </p>
+
+    <div class="row">
+        {% for foto in fotos %}
+        <div class="col-md-6 mb-2">
+            <img src="/media/{{ foto.img }}" class="img-fluid" alt="foto da materia">
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+{% endblock %}
